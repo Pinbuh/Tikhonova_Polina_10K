@@ -1,4 +1,4 @@
-sec = int(input())
+sec = int(input("Введите количество секунд с момента старта:"))
 hours = sec // 3600
 mins = (sec % 3600) // 60
 sec1 = sec % 60
